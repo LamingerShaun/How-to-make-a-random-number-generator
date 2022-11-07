@@ -1,0 +1,40 @@
+@import "./reset.css";
+
+body {
+    background-color: #1a162f;  
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+main {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+.btn {
+    margin-top:30px;
+    margin-left: 420px;
+    background-color: #32edd7;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2ad1bd;
+}
+
+#number {
+    margin-top: 30px;
+    margin-left: 500px;
+    font-size: 28px;
+    color: #ffc0cb;
+}
+
