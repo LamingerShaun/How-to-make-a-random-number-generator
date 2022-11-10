@@ -109,6 +109,7 @@ input[type=button], input[type=submit], input[type=reset], button, a {
 ```
 <br>
 <sub>This is the reset page I use for all of my files, so I think it will serve you well too</sub>
+
 ```@import "./reset.css";
 
 body {
@@ -150,7 +151,9 @@ main {
 }
 ```
 ### JavaScript
+
 <sub>This is a very basic JS code meant for absolute beginners, so this isn't a good practice for more experienced coders.</sub>
+
 ```const num = document.getElementById('number');
 const btn = document.getElementById('generate');
 
